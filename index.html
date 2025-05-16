@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h1>Jogo da Memória</h1>
+            <p>Jogadas: <span id="jogadas">0</span></p>
+            <p>Pontos: <span id="pontos">0</span></p>
+            <p>Vitórias: <span id="vitorias">0</span></p>
+            <button id="reset">Reiniciar Jogo</button>
+        </div>
+        <div class="jogo">
+            <div class="carta" data-imagem="imagem1"></div>
+            <div class="carta" data-imagem="imagem1"></div>
+            <div class="carta" data-imagem="imagem2"></div>
+            <div class="carta" data-imagem="imagem2"></div>
+            <div class="carta" data-imagem="imagem3"></div>
+            <div class="carta" data-imagem="imagem3"></div>
+            <div class="carta" data-imagem="imagem4"></div>
+            <div class="carta" data-imagem="imagem4"></div>
+            <div class="carta" data-imagem="imagem5"></div>
+            <div class="carta" data-imagem="imagem5"></div>
+            <div class="carta" data-imagem="imagem6"></div>
+            <div class="carta" data-imagem="imagem6"></div>
+            <div class="carta" data-imagem="imagem7"></div>
+            <div class="carta" data-imagem="imagem7"></div>
+            <div class="carta" data-imagem="imagem8"></div>
+            <div class="carta" data-imagem="imagem8"></div>
+        </div>
+        <div class="mensagem-vitoria">
+            <h2>Parabéns, você venceu!</h2>
+            <p class="estatisticas-vitoria"></p>
+            <button id="jogar-novamente">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
